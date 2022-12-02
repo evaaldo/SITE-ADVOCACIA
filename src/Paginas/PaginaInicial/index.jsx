@@ -1,4 +1,5 @@
 import AreaDeAtuacao from "../../Componentes/AreasDeAtuacao";
+import Banner from "../../Componentes/Banner/Banner";
 import Cabecalho from "../../Componentes/Cabecalho";
 import Diferenciais from "../../Componentes/Diferenciais/Diferenciais";
 import Equipe from "../../Componentes/Equipe/Equipe";
@@ -13,6 +14,7 @@ export default function PaginaInicial() {
             <AreaDeAtuacao/>
             <Diferenciais/>
             <Equipe/>
+            <Banner/>
         </>
     )
 

@@ -1,0 +1,13 @@
+.banner {
+    padding: 4em 0;
+    text-align: center;
+    background-color: var(--preto-fundo);
+}
+
+.banner__subtitulo {
+    color: var(--vermelho);
+}
+
+.banner__titulo {
+    color: var(--branco);
+}
