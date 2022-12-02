@@ -1,5 +1,4 @@
 import './SobreNos.css'
-import foto1 from './img-1__sobre-nos.jpg'
 import foto2 from './img-2__sobre-nos.jpg'
 
 export default function SobreNos() {

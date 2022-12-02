@@ -52,6 +52,7 @@
     width: 400px;
     height: 300px;
     transition: .2s;
+    border-radius: 10px;
 }
 
 .img2:hover {
