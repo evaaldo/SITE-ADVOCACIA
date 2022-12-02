@@ -1,0 +1,34 @@
+.equipe {
+    margin: 0 0 4em 0;
+}
+
+.equipe__titulo {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.equipe__imagem {
+    border-radius: 130px;
+    width: 130px;
+    height: 130px;
+}
+
+.equipe__itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe__item {
+    background-color: var(--branco);
+    padding: 2em;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}

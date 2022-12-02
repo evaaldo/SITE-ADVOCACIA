@@ -43,6 +43,7 @@ export default function Diferenciais() {
                     </div>
                 </div>
             </div>
+            <div className='linha linhaequipe'></div>
         </div>
     )
 
