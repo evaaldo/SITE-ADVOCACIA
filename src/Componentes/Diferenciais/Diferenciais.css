@@ -1,0 +1,44 @@
+.diferenciais {
+    padding: 4em 8em;
+}
+
+.diferenciais__subtitulo {
+    color: var(--vermelho);
+}
+
+.diferenciais__titulo {
+    font-size: 3em;
+}
+
+.diferenciais__itens {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.diferenciais__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 2em 4em;
+    background-color: var(--branco);
+    transition: .2s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
