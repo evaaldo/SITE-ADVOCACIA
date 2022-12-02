@@ -1,0 +1,59 @@
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 10em;
+    padding: 3em;
+    border-radius: 5px;
+    background-color: var(--branco);
+}
+
+.sobre-nos__info {
+    display: flex;
+    gap: 4em;
+}
+
+.sobre-nos__imagem, .sobre-nos__texto {
+    width: 50%;
+}
+
+.sobre-nos__imagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-nos__subtitulo {
+    color: var(--vermelho);
+}
+
+.sobre-nos__descricao {
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+
+.sobre-nos__link {
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--vermelho);
+    padding: .7em 1.5em;
+    margin-left: 13.5em;
+    border-radius: 3px;
+    transition: .1s;
+}
+
+.sobre-nos__link:hover {
+    background-color: var(--vermelho-escuro);
+}
+
+.img2 {
+    width: 400px;
+    height: 300px;
+    transition: .2s;
+}
+
+.img2:hover {
+    opacity: .6;
+}

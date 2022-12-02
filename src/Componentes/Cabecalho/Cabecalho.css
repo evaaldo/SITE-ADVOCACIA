@@ -1,0 +1,103 @@
+header {
+    padding-bottom: 2.5em;
+}
+
+.contato-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 7em;
+    background-color: var(--branco);
+}
+
+.redes-topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8em;
+}
+
+.redes {
+    color: var(--preto);
+    transition: .1s;
+}
+
+
+.redes:hover {
+    color: var(--vermelho);
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
+    background-color: var(--preto);
+    opacity: .1;
+}
+
+.cabecalho__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em 8em;
+    padding-top: 2em;
+    background-color: var(--branco);
+}
+
+.cabecalho__itens {
+    margin: 0 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.cabecalho__item {
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: .1s;
+}
+
+.cabecalho__item:hover {
+    color: grey;
+}
+
+.cabecalho__botao {
+    padding: .8em 1.5em;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-weight: 600;
+    transition: .1s;
+}
+
+.cabecalho__botao:hover {
+    background-color: var(--vermelho-escuro);
+}
+
+.cabecalho__texto {
+    background-color: var(--branco);
+    padding: 3em 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.cabecalho__titulo {
+    font-size: 3.5em;
+    width: 80%;
+}
+
+.cabecalho__subtitulo {
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+
+.botao-fone {
+    width: 20%;
+}
+
