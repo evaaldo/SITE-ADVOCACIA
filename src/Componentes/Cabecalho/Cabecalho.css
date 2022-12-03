@@ -101,3 +101,27 @@ header {
     width: 20%;
 }
 
+@media screen and (min-width: 1999px) {
+
+    .fone-topo {
+        font-size: 1.5em;
+    }
+
+    .cabecalho__logo {
+        font-size: 3em;
+    }
+
+    .cabecalho__item {
+        font-size: 1.5em;
+    }
+
+    .cabecalho__botao {
+        font-size: 1.5em;
+    }
+
+    .cabecalho__subtitulo {
+        font-size: 1.5em;
+    }
+
+}
+

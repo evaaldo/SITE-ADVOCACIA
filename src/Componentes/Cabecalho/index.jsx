@@ -14,10 +14,10 @@ export default function Cabecalho() {
             <div className="contato-topo">
                 <p className="fone-topo">(85) 9.9612.8272</p>
                 <div className="redes-topo">
-                    <a className='redes' href="."><RiInstagramFill size={25}/></a>
-                    <a className='redes' href="."><RiFacebookBoxFill size={25}/></a>
-                    <a className='redes' href="."><RiLinkedinBoxFill size={25}/></a>
-                    <a className='redes' href="."><RiTwitterFill size={25}/></a>
+                    <a className='redes' href="."><RiInstagramFill size={28}/></a>
+                    <a className='redes' href="."><RiFacebookBoxFill size={28}/></a>
+                    <a className='redes' href="."><RiLinkedinBoxFill size={28}/></a>
+                    <a className='redes' href="."><RiTwitterFill size={28}/></a>
                 </div>
             </div>
             <div className='linha'></div>
