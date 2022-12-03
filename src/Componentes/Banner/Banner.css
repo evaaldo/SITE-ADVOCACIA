@@ -11,3 +11,19 @@
 .banner__titulo {
     color: var(--branco);
 }
+
+@media screen and (min-width: 1999px) {
+
+    .banner {
+        padding: 6em 0;
+    }
+    
+    .banner__subtitulo {
+        font-size: 1.5em;
+    }
+
+    .banner__titulo {
+         font-size: 3em;
+    }
+
+}
