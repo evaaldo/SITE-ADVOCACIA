@@ -32,3 +32,26 @@
     align-items: center;
     gap: .5em;
 }
+
+@media screen and (min-width: 1999px) {
+
+    .equipe__imagem {
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+    }
+
+    .equipe__nome {
+        font-size: 1.5em;
+        margin-top: .5em;
+    }
+
+    .equipe__cargo {
+        font-size: 1.2em;
+    }
+
+    .equipe__descricao {
+        font-size: 1.2em;
+    }
+
+}
