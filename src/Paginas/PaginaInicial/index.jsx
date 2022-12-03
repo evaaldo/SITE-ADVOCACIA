@@ -4,6 +4,7 @@ import Cabecalho from "../../Componentes/Cabecalho";
 import Contato from "../../Componentes/Contato/Contato";
 import Diferenciais from "../../Componentes/Diferenciais/Diferenciais";
 import Equipe from "../../Componentes/Equipe/Equipe";
+import Rodape from "../../Componentes/Rodape/Rodape";
 import SobreNos from "../../Componentes/SobreNos";
 
 export default function PaginaInicial() {
@@ -17,6 +18,7 @@ export default function PaginaInicial() {
             <Equipe/>
             <Banner/>
             <Contato/>
+            <Rodape/>
         </>
     )
 

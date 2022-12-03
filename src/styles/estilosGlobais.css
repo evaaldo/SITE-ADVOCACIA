@@ -18,3 +18,7 @@ body {
     --cinza: #ececec;
     --preto-fundo: #202020;
 }
+
+@media screen and (min-width: 1800px) {
+    
+}
