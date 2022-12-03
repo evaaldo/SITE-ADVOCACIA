@@ -44,3 +44,28 @@
     border-radius: 10px;
 }
 
+@media screen and (min-width: 1999px) {
+
+    .areadeatuacao__subtitulo {
+        font-size: 1.5em;
+    }
+
+    .areadeatuacao__titulo {
+        font-size: 3em;
+    }
+
+    .area__titulo {
+        font-size: 2em;
+    }
+
+    .area__descricao {
+        font-size: 1.3em;
+        margin-top: .5em;
+    }
+
+    .areadeatuacao__imagem {
+        width: 500px;
+    }
+
+}
+
