@@ -114,8 +114,10 @@
 
     .sobre-nos__mobile {
         display: block;
-        padding: 1em;
+        padding: 1.5em;
+        padding-bottom: 2em;
         margin: 0 2em;
+        margin-bottom: 2em;
     }
 
     .sobre-nos__desktop {

@@ -168,6 +168,7 @@ header {
 
     .baixo__subtitulo {
         font-size: .8em;
+        margin-top: 1em;
     }
 
     .baixo__input {
