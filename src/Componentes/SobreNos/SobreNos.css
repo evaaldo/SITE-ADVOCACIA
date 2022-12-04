@@ -39,7 +39,7 @@
     color: var(--branco);
     background-color: var(--vermelho);
     padding: .7em 1.5em;
-    margin-left: 13.5em;
+    margin-left: 32.5em;
     border-radius: 3px;
     transition: .1s;
 }
@@ -57,6 +57,10 @@
 
 .img2:hover {
     opacity: .6;
+}
+
+.sobre-nos__mobile {
+    display: none;
 }
 
 @media screen and (min-width: 1800px) {
@@ -88,10 +92,14 @@
         color: var(--branco);
         background-color: var(--vermelho);
         padding: .7em 1.5em;
-        margin-left: 10em;
+        margin-left: 37em;
         border-radius: 3px;
         transition: .1s;
         font-size: 1.5em;
+    }
+
+    .sobre-nos__mobile {
+        display: none;
     }
 
 }
@@ -99,7 +107,31 @@
 @media screen and (max-width: 1024px) {
 
     .sobre-nos {
+        background-color: var(--cinza);
+        padding: 0;
+        margin: 0;
+    }
+
+    .sobre-nos__mobile {
+        display: block;
+        padding: 1em;
+        margin: 0 2em;
+    }
+
+    .sobre-nos__desktop {
         display: none;
+    }
+
+    .sobre-nos__mobile {
+        background-color: var(--branco);
+    }
+
+    .sobre-nos__mobile-subtitulo {
+        color: var(--vermelho);
+    }
+
+    .sobre-nos__mobile-descricao {
+        margin: 1em 0 2em 0;
     }
 
 }
