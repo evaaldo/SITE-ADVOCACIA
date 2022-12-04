@@ -12,7 +12,7 @@
     color: var(--branco);
 }
 
-@media screen and (min-width: 1999px) {
+@media screen and (min-width: 1800px) {
 
     .banner {
         padding: 6em 0;

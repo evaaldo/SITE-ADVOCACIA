@@ -59,7 +59,7 @@
     opacity: .6;
 }
 
-@media screen and (min-width: 1999px) {
+@media screen and (min-width: 1800px) {
 
     .sobre-nos__info {
         display: flex;

@@ -113,7 +113,7 @@
     background-color: var(--vermelho-escuro);
 }
 
-@media screen and (min-width:1999px) {
+@media screen and (min-width:1800px) {
 
     .contato__info {
         width: 500px;
