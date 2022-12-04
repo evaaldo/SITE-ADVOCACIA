@@ -169,5 +169,12 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+
+    .contato {
+        display: none;
+    }
+
+}
 
 

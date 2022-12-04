@@ -95,3 +95,11 @@
     }
 
 }
+
+@media screen and (max-width: 1024px) {
+
+    .sobre-nos {
+        display: none;
+    }
+
+}
