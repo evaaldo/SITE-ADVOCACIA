@@ -180,6 +180,11 @@
         width: 315px;
     }
 
+    .nome, .numero, .email, .mensagem {
+        width: 90%;
+        font-size: 1em;
+    }
+
 }
 
 

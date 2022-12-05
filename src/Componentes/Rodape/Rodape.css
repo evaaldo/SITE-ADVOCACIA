@@ -9,11 +9,3 @@
     font-size: 1em;
 }
 
-@media screen and (max-width: 1024px) {
-
-    .rodape {
-        display: none;
-    }
-
-}
-
