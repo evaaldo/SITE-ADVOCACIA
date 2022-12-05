@@ -172,7 +172,12 @@
 @media screen and (max-width: 1024px) {
 
     .contato {
-        display: none;
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .contato__talk {
+        width: 315px;
     }
 
 }
