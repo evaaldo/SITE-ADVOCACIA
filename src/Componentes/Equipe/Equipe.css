@@ -33,6 +33,10 @@
     gap: .5em;
 }
 
+.equipe-mobile {
+    display: none;
+}
+
 @media screen and (min-width: 1800px) {
 
     .equipe__imagem {
@@ -54,12 +58,25 @@
         font-size: 1.2em;
     }
 
+    .equipe-mobile {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
 
-    .equipe {
+    .equipe-desktop {
         display: none;
+    }
+
+    .equipe-mobile {
+        display: block;
+        margin: 0 2em;
+    }
+
+    .equipe__titulo {
+        font-size: 2em;
     }
 
 }
