@@ -1,4 +1,5 @@
 import './Contato.css'
+import emailjs from '@emailjs/browser'
 
 import { FaInstagramSquare } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
@@ -6,9 +7,44 @@ import { FaFacebookSquare } from 'react-icons/fa'
 import { HiLocationMarker } from 'react-icons/hi'
 import { FiMail } from 'react-icons/fi'
 import { BsTelephoneFill } from 'react-icons/bs'
+import { useState } from 'react'
+import { RiContactsBookLine } from 'react-icons/ri'
 
 
 export default function Contato() {
+
+    const [nome, setNome] = useState('')
+    const [numero, setNumero] = useState('')
+    const [email, setEmail] = useState('')
+    const [mensagem, setMensagem] = useState('')
+
+    function sendEmail(e) {
+
+        e.preventDefault()
+
+        if(nome === '' || email === '' || numero === '' || mensagem === '') {
+            alert('PREENCHA TODOS OS CAMPOS')
+            return
+        }
+
+        const templateParams = {
+            from_name: nome,
+            message: mensagem,
+            email: email
+        }
+
+        emailjs.send('service_hjh7g1f', 'template_rjp6bo2', templateParams, 'gcQJkwh4AOZnT9zPf')
+        .then((response) => {
+            console.log('email enviado', response.status, response.text)
+            setNome('')
+            setEmail('')
+            setMensagem('')
+            setNumero('')
+        }, (err) => {
+            console.log('erro: ', err)
+        })
+
+    }
 
     return(
         <div className="contato">
@@ -40,11 +76,13 @@ export default function Contato() {
             <div className='contato__talk'>
                 <h4 className='talk__subtitulo'>Sem compromisso</h4>
                 <h2 className='talk__titulo'>Fale conosco</h2>
-                <input className='nome' type='text' placeholder='Nome completo'></input>
-                <input className='numero' type='text' placeholder='Número'></input>
-                <input className='email' type='text' placeholder='E-mail'></input>
-                <input className='mensagem' type='text' placeholder='Mensagem'></input>
-                <button className='talk__botao'>ENVIAR</button>
+                <form className='formulario' onSubmit={sendEmail}>  
+                    <input className='nome' type='text' placeholder='Nome completo' onChange={(e) => setNome(e.target.value)} value={nome}></input>
+                    <input className='numero' type='text' placeholder='Número' onChange={(e) => setNumero(e.target.value)} value={numero}></input>
+                    <input className='email' type='text' placeholder='E-mail' onChange={(e) => setEmail(e.target.value)} value={email}></input>
+                    <input className='mensagem' type='text' placeholder='Mensagem' onChange={(e) => setMensagem(e.target.value)} value={mensagem}></input>
+                    <button className='talk__botao'>ENVIAR</button>
+                </form>
             </div>
         </div>
     )

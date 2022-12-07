@@ -113,6 +113,12 @@
     background-color: var(--vermelho-escuro);
 }
 
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
 @media screen and (min-width:1800px) {
 
     .contato__info {
