@@ -4,7 +4,7 @@ import foto2 from './img-2__sobre-nos.jpg'
 export default function SobreNos() {
 
     return(
-        <div className="sobre-nos">
+        <div className="sobre-nos" id='sobre-nos'>
             <div className='sobre-nos__desktop'>
                 <div className='sobre-nos__info'>
                     <div className="sobre-nos__imagem">
@@ -21,7 +21,7 @@ export default function SobreNos() {
                         </p>
                     </div>
                 </div>
-                <a href='.' className='sobre-nos__link'>Fale conosco</a>
+                <a href='#contato' className='sobre-nos__link'>Fale conosco</a>
             </div>
             <div className='sobre-nos__mobile'>
                 <h4 className='sobre-nos__mobile-subtitulo'>Sobre nós</h4>
@@ -32,7 +32,7 @@ export default function SobreNos() {
                 <p className='sobre-nos__mobile-descricao'>
                     A Escritório Advogados é formada por advogados com especialização, pós graduação e mestrado nas mais importantes universidades públicas e privadas do Brasil, passando por constantes atualizações em seus currículos para um melhor atendimento ao público alvo de nosso escritório.
                 </p>
-                <a className='baixo__input sobre-nos__mobile-input'>FALE CONOSCO</a>
+                <a href='#contato' className='baixo__input sobre-nos__mobile-input'>FALE CONOSCO</a>
             </div>
         </div>
     )

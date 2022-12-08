@@ -99,10 +99,15 @@ header {
 
 .botao-fone {
     width: 20%;
+    text-align: center;
 }
 
 .cabecalho-mobile {
     display: none;
+}
+
+.nopointer {
+    cursor: auto;   
 }
 
 @media screen and (min-width: 1800px) {

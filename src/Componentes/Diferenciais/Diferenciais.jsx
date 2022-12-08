@@ -10,7 +10,7 @@ import { BsHeartFill } from 'react-icons/bs'
 export default function Diferenciais() {
 
     return(
-        <div className='diferenciais'>
+        <div className='diferenciais' id='diferenciais'>
             <div className='diferenciais-desktop'>
                 <h4 className='diferenciais__subtitulo'>Motivos para nos escolher</h4>
                 <h1 className='diferenciais__titulo'>Alguns diferenciais</h1>

@@ -10,6 +10,10 @@ body {
     background-color: var(--cinza);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --branco: #fff;
     --preto: #000;

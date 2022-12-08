@@ -136,4 +136,8 @@
         margin: 1em 0 2em 0;
     }
 
+    .sobre-nos__mobile-input {
+        color: var(--branco);
+    }
+
 }

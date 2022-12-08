@@ -5,7 +5,7 @@ import usuario from './no-pf.png'
 export default function Equipe() {
 
     return(
-        <div className="equipe">
+        <div className="equipe" id='equipe'>
             <div className='equipe-desktop'>
                 <h1 className='equipe__titulo'>Nossa equipe</h1>
                 <div className='equipe__itens'>

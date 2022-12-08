@@ -5,7 +5,7 @@ import imobiliario from './direito-imobiliario.jpg'
 export default function AreaDeAtuacao() {
 
     return(
-        <div className="areadeatuacao">
+        <div className="areadeatuacao" id='areas-de-atuacao'>
             <div className='areadeatuacao-desktop'>
                 <h4 className="areadeatuacao__subtitulo">Alguns de nossos serviços</h4>
                 <h1 className="areadeatuacao__titulo">Áreas de atuação</h1>

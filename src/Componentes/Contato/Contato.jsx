@@ -46,7 +46,7 @@ export default function Contato() {
     }
 
     return(
-        <div className="contato">
+        <div className="contato" id='contato'>
             <div className='contato__info'>
                 <h4 className='info__subtitulo'>Escritório</h4>
                 <h2 className='info__titulo'>Contato</h2>
