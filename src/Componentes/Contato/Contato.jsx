@@ -27,22 +27,21 @@ export default function Contato() {
             return
         }
 
-        const templateParams = {
+        const templatePrams = {
             from_name: nome,
             message: mensagem,
-            email: email
+            email: email,
+            number: numero
         }
 
-        emailjs.send('service_hjh7g1f', 'template_rjp6bo2', templateParams, 'gcQJkwh4AOZnT9zPf')
+        emailjs.send('service_te8ywie', 'template_rjp6bo2', templatePrams, 'gcQJkwh4AOZnT9zPf')
         .then((response) => {
-            console.log('email enviado', response.status, response.text)
-            setNome('')
+            console.log('EMAIL ENVIADO', response.status, response.text)
             setEmail('')
+            setNome('')
             setMensagem('')
             setNumero('')
-        }, (err) => {
-            console.log('erro: ', err)
-        })
+        }, (err) => console.log('erro: ', err))
 
     }
 
@@ -81,7 +80,7 @@ export default function Contato() {
                     <input className='numero' type='text' placeholder='Número' onChange={(e) => setNumero(e.target.value)} value={numero}></input>
                     <input className='email' type='text' placeholder='E-mail' onChange={(e) => setEmail(e.target.value)} value={email}></input>
                     <input className='mensagem' type='text' placeholder='Mensagem' onChange={(e) => setMensagem(e.target.value)} value={mensagem}></input>
-                    <button className='talk__botao'>ENVIAR</button>
+                    <input value='Enviar' type='submit' className='talk__botao'></input>
                 </form>
             </div>
         </div>
