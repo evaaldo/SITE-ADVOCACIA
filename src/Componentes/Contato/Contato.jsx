@@ -72,7 +72,7 @@ export default function Contato() {
                     <a className='info__links' href='.'><FaLinkedin size={30} /></a>
                 </div>
             </div>
-            <div className='contato__talk'>
+            <div className='contato__talk' id='fale-conosco'>
                 <h4 className='talk__subtitulo'>Sem compromisso</h4>
                 <h2 className='talk__titulo'>Fale conosco</h2>
                 <form className='formulario' onSubmit={sendEmail}>  

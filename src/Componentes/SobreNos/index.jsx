@@ -21,7 +21,7 @@ export default function SobreNos() {
                         </p>
                     </div>
                 </div>
-                <a href='#contato' className='sobre-nos__link'>Fale conosco</a>
+                <a href='#fale-conosco' className='sobre-nos__link'>Fale conosco</a>
             </div>
             <div className='sobre-nos__mobile'>
                 <h4 className='sobre-nos__mobile-subtitulo'>Sobre nós</h4>
@@ -32,7 +32,7 @@ export default function SobreNos() {
                 <p className='sobre-nos__mobile-descricao'>
                     A Escritório Advogados é formada por advogados com especialização, pós graduação e mestrado nas mais importantes universidades públicas e privadas do Brasil, passando por constantes atualizações em seus currículos para um melhor atendimento ao público alvo de nosso escritório.
                 </p>
-                <a href='#contato' className='baixo__input sobre-nos__mobile-input'>FALE CONOSCO</a>
+                <a href='#fale-conosco' className='baixo__input sobre-nos__mobile-input'>FALE CONOSCO</a>
             </div>
         </div>
     )

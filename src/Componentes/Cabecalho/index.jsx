@@ -38,12 +38,12 @@ export default function Cabecalho() {
                         <a className='cabecalho__item' href='#equipe'>Equipe</a>
                         <a className='cabecalho__item' href='#contato'>Contato</a>
                     </div>
-                    <a href='#contato' className='cabecalho__botao'>Fale conosco</a>
+                    <a href='#fale-conosco' className='cabecalho__botao'>Fale conosco</a>
                 </div>
                 <div className='cabecalho__texto'>
                     <h1 className='cabecalho__titulo'>Transformando problemas em soluções</h1>
                     <h3 className='cabecalho__subtitulo'>Comprometidos em ajudar pessoas</h3>
-                    <a href='#contato' className='cabecalho__botao botao-fone'><RiPhoneFill/> (85) 9.9612.8272</a>
+                    <a href='#fale-conosco' className='cabecalho__botao botao-fone'><RiPhoneFill/> (85) 9.9612.8272</a>
                 </div>
             </div>
             <div className='cabecalho-mobile'>
@@ -59,7 +59,7 @@ export default function Cabecalho() {
                 <div className='cabecalho-mobile__baixo'>
                     <h1 className='baixo__titulo'>Transformando problemas em soluções</h1>
                     <h4 className='baixo__subtitulo'>Comprometidos em ajudar as pessoas</h4>
-                    <a className='baixo__input' href='#contato'>(85) 9.9612.8272</a>
+                    <a className='baixo__input' href='#fale-conosco'>(85) 9.9612.8272</a>
                 </div>
             </div>
         </header>
