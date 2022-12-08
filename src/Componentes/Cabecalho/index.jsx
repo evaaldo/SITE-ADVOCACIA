@@ -6,8 +6,14 @@ import { RiPhoneFill } from 'react-icons/ri'
 import { FaBars } from 'react-icons/fa'
 
 import './Cabecalho.css'
+import { useState } from 'react'
+import Sidebar from '../Sidebar/Sidebar'
 
 export default function Cabecalho() {
+
+    const [sidebar, setSidebar] = useState(false)
+
+    const showSidebar = () => setSidebar(!sidebar)
 
     return(
 
@@ -45,7 +51,8 @@ export default function Cabecalho() {
                     <h1 className='topo__titulo'>LOGOMARCA</h1>
                     <div className='checkbox-topo'>
                         <label for='topo__input'><FaBars/></label>
-                        <input id='topo__input' type='checkbox'></input>
+                        <input id='topo__input' type='checkbox' onClick={showSidebar}></input>
+                        {sidebar && <Sidebar active={setSidebar}/>}
                     </div>
                 </div>
                 <div className='linha'></div>
